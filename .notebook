@@ -1,0 +1,12 @@
+render:
+  theme: bitsgofer
+  contentDir: content
+  outputDir: _public_html
+
+devServer:
+  addr: localhost:8080
+  dir: _public_html
+
+publish:
+  branch: gh-pages
+  dir: _public_html
